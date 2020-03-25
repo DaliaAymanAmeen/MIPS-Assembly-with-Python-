@@ -4,7 +4,7 @@ to make the assembler work :
 
 2-put them in a seprate folder 
 
-3- run main.py file
+3- run assembler.py file
 
 4-there is two options while running :
 
