@@ -1,0 +1,7 @@
+addi $s5,$zero, 3
+slt $at,$s5,$a1
+beq $at,$zero, Elsee
+add $s6,$s5,$zero
+j Exitt
+Elsee add $s6,$zero,$zero
+Exitt add $zero,$zero,$zero

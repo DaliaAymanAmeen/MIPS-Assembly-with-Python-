@@ -1,0 +1,9 @@
+addi $s2,$zero, 2
+addi $s3,$zero, 0
+addi $s4,$zero, 4
+lw $t0, 32($s3)
+add $t0,$s2,$t0
+add $t1,$s4,$s4
+add $t1,$t1,$t1
+add $t1,$t1,$s3
+sw $t0, 0($t1)

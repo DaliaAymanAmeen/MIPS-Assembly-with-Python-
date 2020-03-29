@@ -1,0 +1,5 @@
+beq $t1,$t1, lable
+ori $t1,$t2, 4
+j exitt
+lable addi $t1,$t2, 4
+exitt add $zero,$zero,$zero
